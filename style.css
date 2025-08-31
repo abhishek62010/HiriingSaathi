@@ -126,3 +126,33 @@ a {
   height: auto;
   object-fit: contain;
 }
+
+
+/* Footer */
+.footer {
+  background: var(--brand-dark);
+  color: #f9fafb;
+}
+.footer-title {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+.footer-links li {
+  margin: 0.5rem 0;
+}
+.footer-links a {
+  color: #f3f4f6;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+.footer-links a:hover {
+  color: var(--accent);
+}
+.social-links a {
+  color: #f9fafb;
+  transition: color 0.3s ease;
+}
+.social-links a:hover {
+  color: var(--brand);
+}
