@@ -9,6 +9,14 @@ html, body {
   color: #111827;
 }
 
+.bg-cta {
+  background-image: url('assets/images/hero-discussion.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
 a {
   text-decoration: none;
 }
